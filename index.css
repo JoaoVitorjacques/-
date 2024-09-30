@@ -1,0 +1,195 @@
+body {
+     color: white;
+     background-color: black;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+.center {
+     text-align: center;
+}
+
+h1 {
+    color: green;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+
+}
+
+.container {
+     padding: 0px 50px;
+}
+
+nav a:hover {
+    color: green;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: #333;
+    border-radius: 8px;
+    max-width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-contato label {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: white;
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #444;
+    color: white;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+    border-color: green;
+    outline: none;
+}
+
+.form-contato button {
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-contato button:hover {
+    background-color: green;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: green;
+}
+
+.meus-projetos {
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.meus-projetos h2 {
+    font-size: 2.5em;
+    color: green;
+    margin-bottom: 30px;
+}
+
+
+.meus-projetos .projeto-card {
+    background-color: green;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.meus-projetos .projeto-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.meus-projetos .projeto-card h3 {
+    font-size: 1.8em;
+    color: white;
+}
+
+.meus-projetos .projeto-card p {
+    font-size: 1.1em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.meus-projetos .projeto-card a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.meus-projetos .projeto-card a:hover {
+    background-color: black;
+}
